@@ -36,7 +36,7 @@ int main() {
         close(fd[0]); // Close unused read end
 
         // Write data to the pipe
-        write(fd[1], "Mohit", 5);
+        write(fd[1], "Anik", 5);
         close(fd[1]); // Close write end after writing
 
         wait(NULL); // Wait for child process
